@@ -121,7 +121,7 @@ public class MelonHandler extends Handler {
 
     public void send2Neighbor(InetAddress peer, int cmd, String add) {
         if (p2PCommunicate != null)
-            p2PCommunicate.sendMsg2Peer(peer, cmd, P2PConstant.Recipient.NEIGHBOR, add);
+            p2PCommunicate.sendMsg2Peer(peer, cmd, P2PConstant.Recipient.$samuelmedina79, add);
     }
 
     public void send2Receiver(InetAddress peer, int cmd, String add) {
