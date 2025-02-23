@@ -1,4 +1,4 @@
-package com.guo.duoduo.p2pmanager;
+package com.onedebit.chime;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
